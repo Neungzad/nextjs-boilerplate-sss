@@ -1,7 +1,10 @@
+import Link from 'next/link';
+import MyLayout from '../components/MyLayout';
+
 const index = () => (
-  <div>
+  <MyLayout>
     <p>Hello Next.js</p>
-  </div>
+  </MyLayout>
 )
 
 export default index;
